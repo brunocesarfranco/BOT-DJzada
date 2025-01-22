@@ -1,0 +1,5 @@
+DISPLAY_NAME=DJzada
+MAIN=main.py
+MEMORY=256
+VERSION=recommended
+DESCRIPTION=Bot de Música
