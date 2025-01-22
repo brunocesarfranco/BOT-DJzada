@@ -53,7 +53,7 @@ Este bot foi desenvolvido utilizando as seguintes bibliotecas:
 
 1. Execute o bot:
     ```bash
-    python bot.py
+    python main.py
     ```
 
 2. No Discord, convide o bot para seu servidor e use os seguintes comandos:
