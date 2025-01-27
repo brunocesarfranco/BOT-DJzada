@@ -22,13 +22,13 @@ async def on_ready():
     logging.info(f"Bot {bot.user.name} está online!")
     print(f"Bot {bot.user.name} está online!")
     
-    os.getenv("DISCORD_TOKEN")
-    # Envia uma mensagem de boas-vindas e assinatura para o Discord
-    channel = bot.get_channel(1308160946878808085)  # Substitua pelo ID do canal onde deseja a mensagem
-    if channel:
-        await channel.send("DJzada está on.")
-    else:
-        logging.error("Canal não encontrado!")
+    # os.getenv("DISCORD_TOKEN")
+    # # Envia uma mensagem de boas-vindas e assinatura para o Discord
+    # channel = bot.get_channel(1308160946878808085)  # Substitua pelo ID do canal onde deseja a mensagem
+    # if channel:
+    #     await channel.send("DJzada está on.")
+    # else:
+    #     logging.error("Canal não encontrado!")
 
 @bot.command()
 @commands.is_owner()
