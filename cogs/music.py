@@ -22,7 +22,7 @@ class Music(commands.Cog):
         self.vc = None
 
     def search_yt(self, item):
-        self.YDL_OPTIONS['cookiefile'] = 'cookies.txt'  # Adiciona o caminho para o arquivo de cookies
+        # self.YDL_OPTIONS['cookiefile'] = 'cookies.txt'  # Adiciona o caminho para o arquivo de cookies
 
         with YoutubeDL(self.YDL_OPTIONS) as ydl:
             try:
