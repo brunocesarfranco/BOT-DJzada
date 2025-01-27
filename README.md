@@ -1,5 +1,7 @@
 # BOT-DJzada
 
+Link direto para convite: https://discord.com/oauth2/authorize?client_id=1308152466231136349
+
 Este é um bot de música para o Discord que permite que os usuários toquem músicas de vídeos do YouTube em canais de voz. O bot é simples de configurar e usa a biblioteca `discord.py` para interagir com a API do Discord, além de `yt-dlp` para fazer download e streaming de vídeos.
 
 ## Funcionalidades
